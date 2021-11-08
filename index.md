@@ -5,11 +5,12 @@ This is a workshop about elasticsearch created for the module ESDE.
 
 ### How to prepare for the workshop
 
-The assignemnt for the workshop are in a Docker container. To create the Docker container ...
+In the workshop you will be solving assignments in a Docker container.
+To create the Docker container ...
 
 ### slides for the workshop
 
-
+The slides of the workshop
 
 
 
