@@ -8,7 +8,7 @@ This is a workshop about elasticsearch created for the module ESDE.
 In the workshop you will be solving assignments in a Docker container.
 To create the Docker container ...
 
-### slides for the workshop
+### Slides for the workshop
 
 The slides of the workshop
 
