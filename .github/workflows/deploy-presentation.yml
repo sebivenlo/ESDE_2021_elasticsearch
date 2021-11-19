@@ -1,7 +1,9 @@
 name: Build Webpage from Markdown and Deploy to Github Pages
 on:
   push:
-    branches: [main; gh-pages]
+    branches:
+      -gh-pages
+    
 
 jobs:
   build-and-deploy:
@@ -28,5 +30,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_PAGE_NAME: https://sebivenlo.github.io/ESDE_2021_elasticsearch/presentation.html
           BRANCH: gh-pages
           FOLDER: build
