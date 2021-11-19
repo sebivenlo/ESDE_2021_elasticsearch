@@ -10,8 +10,7 @@ To create the Docker container ...
 
 ### Slides for the workshop
 
-The slides of the workshop can be found on this page: https://sebivenlo.github.io/ESDE_2021_elasticsearch/presentation.html
-
+The slides of the workshop can be found on this (https://sebivenlo.github.io/ESDE_2021_elasticsearch/presentation.html) page.
 
 
 
