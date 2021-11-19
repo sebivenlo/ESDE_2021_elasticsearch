@@ -31,6 +31,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_PAGE_NAME: https://sebivenlo.github.io/ESDE_2021_elasticsearch/presentation.html
-          BRANCH: gh-pages
+          BRANCH: gh-pages/presentation
           FOLDER: build
