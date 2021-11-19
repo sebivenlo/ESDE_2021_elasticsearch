@@ -2,7 +2,7 @@ name: Build Webpage from Markdown and Deploy to Github Pages
 on:
   push:
     branches:
-      -gh-pages
+      -main
     
 
 jobs:
