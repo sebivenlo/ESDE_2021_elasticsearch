@@ -6,7 +6,18 @@ This is a workshop about elasticsearch created for the module ESDE.
 ### How to prepare for the workshop
 
 In the workshop you will be solving assignments in a Docker container.
-To create the Docker container ...
+To create the Docker container with elasticsearch and kibana run the following commands:
+
+```
+docker network create elastic
+docker pull docker.elastic.co/elasticsearch/elasticsearch:7.15.2
+docker run --name es01-test --net elastic -p 127.0.0.1:9200:9200 -p 127.0.0.1:9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.15.2
+
+docker pull docker.elastic.co/kibana/kibana:7.15.2
+docker run --name kib01-test --net elastic -p 127.0.0.1:5601:5601 -e "ELASTICSEARCH_HOSTS=http://es01-test:9200" docker.elastic.co/kibana/kibana:7.15.2
+```
+
+Then you can access the kibana container under (http://localhost:5601)
 
 ### Slides for the workshop
 
