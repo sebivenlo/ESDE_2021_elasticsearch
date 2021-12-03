@@ -29,6 +29,9 @@ The information of the slides can be found on [this](https://sebivenlo.github.io
 - official website: [https://www.elastic.co/de/](https://www.elastic.co/de/)
 
 
+Tutorials:
+- [https://dev.to/elastic/performing-crud-operations-with-elasticsearch-kibana-50ka](https://dev.to/elastic/performing-crud-operations-with-elasticsearch-kibana-50ka)
+
 ### Markdown for this file
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
