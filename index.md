@@ -21,9 +21,12 @@ Then you can access the kibana container under (http://localhost:5601)
 
 ### Slides for the workshop
 
-The information of the slides can be found on [this](https://sebivenlo.github.io/ESDE_2021_elasticsearch/presentation.html) page.
+The information of the slides can be found on [this](https://sebivenlo.github.io/ESDE_2021_elasticsearch/presentation.html) page but also as a pdf in the repository.
 
 
+
+### Sources
+- official website: [https://www.elastic.co/de/](https://www.elastic.co/de/)
 
 
 ### Markdown for this file
