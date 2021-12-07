@@ -1,8 +1,8 @@
 ---
-title: assignments
+title: Elasticsearch workshop assignments
 ---
 
-hello
+Assignments
 =====
 
 hi
