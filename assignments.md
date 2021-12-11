@@ -13,13 +13,13 @@ Access the Kibana dashboard at .. and navigate to the dev tool.
 
 In this assignment you are to create a system for the employees of a company. Every employee is to have an account in this system containing the first name, last name and job title.
 
-1.1 Create an index for the accounts of employees of a company.
-1.2 Add a person to the accounts  /add an account for a person with a first name, a last name and a job title.
-1.3 Retrieve the created account
-1.4 Update the document by adding the field 'birth_date'.
-1.5 Add a second person with the same job title.
-1.6 Search for the persons based on their jobtitle. (e.g if you added teachers to elasticsearch then search for the employees with the job title 'teacher')
-1.7 Delete an account.
+1. 1 Create an index for the accounts of employees of a company.
+1. 2 Add a person to the accounts  /add an account for a person with a first name, a last name and a job title.
+1. 3 Retrieve the created account
+1. 4 Update the document by adding the field 'birth_date'.
+1. 5 Add a second person with the same job title.
+1. 6 Search for the persons based on their jobtitle. (e.g if you added teachers to elasticsearch then search for the employees with the job title 'teacher')
+1. 7 Delete an account.
 
 
 2.  More advanced search with a bigger dataset
