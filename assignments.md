@@ -31,7 +31,8 @@ Steps to take before starting:
   - Choose to upload your own data.
   - Change the number_of_lines parameter to 40000 (This does not add the full file but adds a big enough dataset containing multiple plays).
   - Choose the advanced method to view the mapping that is created and give shakespeare as index.
-Now to the queries
+
+Now to the queries:
 1. Get all the documents in the dataset with the match_all query.
 2. Search for the scenes in which the 'play_name' is 'Timon of Athens' with the match query.
 3. Search for the scenes in the play 'Hamlet' ('play_name') in which the 'speaker' is 'Bernardo'. Tip: boolean conditions & match query
