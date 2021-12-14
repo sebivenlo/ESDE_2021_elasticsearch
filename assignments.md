@@ -32,6 +32,35 @@ Steps to take before starting:
   - Click import
   - Choose the advanced method to view the mapping that is created and set the index to 'shakespeare'.
 
+The mapping of the shakespeare dataset should look as follows.
+´´´
+{
+  "properties": {
+    "index": {
+      "type": "object"
+    },
+    "line_id": {
+      "type": "long"
+    },
+    "line_number": {
+      "type": "keyword"
+    },
+    "play_name": {
+      "type": "keyword"
+    },
+    "speaker": {
+      "type": "keyword"
+    },
+    "speech_number": {
+      "type": "keyword"
+    },
+    "text_entry": {
+      "type": "text"
+    }
+  }
+}
+´´´
+
 Now to the queries:
 1. Get all the documents in the dataset with the match_all query.
 2. Search for the scenes in which the 'play_name' is 'Timon of Athens' with the match query.
