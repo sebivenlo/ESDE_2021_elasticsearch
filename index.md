@@ -1,6 +1,6 @@
 ## Elasticsearch workshop
 
-This is a workshop about elasticsearch created for the module ESDE.
+This is a workshop about Elasticsearch created for the module ESDE.
 
 
 ### How to prepare for the workshop
@@ -17,7 +17,7 @@ docker pull docker.elastic.co/kibana/kibana:7.15.2
 docker run --name kib01-test --net elastic -p 127.0.0.1:5601:5601 -e "ELASTICSEARCH_HOSTS=http://es01-test:9200" docker.elastic.co/kibana/kibana:7.15.2
 ```
 
-Then you can access the kibana container under [http://localhost:5601](http://localhost:5601)
+Then you can access the Kibana container under [http://localhost:5601](http://localhost:5601)
 
 ### Slides for the workshop
 
