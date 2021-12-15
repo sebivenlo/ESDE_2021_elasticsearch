@@ -1,6 +1,6 @@
 # Cheat Sheet
 
-## Create an index:
+## Create an index
 ```PUT Name-of-the-Index```
 
 ## Create a document
