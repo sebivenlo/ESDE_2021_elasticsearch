@@ -42,7 +42,8 @@ For the first assignments there is a small cheat sheet [here](https://sebivenlo.
 - [https://medium.com/@victorsmelopoa/an-introduction-to-elasticsearch-with-kibana-78071db3704](https://medium.com/@victorsmelopoa/an-introduction-to-elasticsearch-with-kibana-78071db3704)
 - [http://workshopdudes.github.io/elasticsearch-workshop-slides/#/](http://workshopdudes.github.io/elasticsearch-workshop-slides/#/)
 - [https://opensourcelibs.com/lib/elasticsearch-workshop](https://opensourcelibs.com/lib/elasticsearch-workshop)
-- [https://alternativeto.net/software/elasticsearch/](https://alternativeto.net/software/elasticsearch/) 
+- [https://alternativeto.net/software/elasticsearch/](https://alternativeto.net/software/elasticsearch/)
+- [https://codingexplained.com/coding/elasticsearch/terminology](https://codingexplained.com/coding/elasticsearch/terminology) 
 
 
 ### Tutorials
