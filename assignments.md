@@ -17,7 +17,7 @@ In this assignment you are to create a system for the employees of a company. Ev
 3. Retrieve the created account
 4. Update the document by adding the field 'birth_date'.
 5. Add a second person with the same job title.
-6. Search for the persons based on their jobtitle. (e.g if you added teachers to elasticsearch then search for the employees with the job title 'teacher')
+6. Search for the persons based on their jobtitle. (e.g if you added actors to elasticsearch then search for the actors with the job title 'teacher')
 7. Delete an account.
 
 
