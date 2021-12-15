@@ -10,7 +10,7 @@ Access the Kibana dashboard at [http://localhost:5601](http://localhost:5601) an
 
 ## Task 1: Simple Query Assignment
 
-In this assignment you are to create a system for the employees of a company. Every employee is to have an account in this system containing the first name, last name and job title.
+In this assignment you are to create a system for the employees of a company. Every employee is to have an account in this system containing the first name, last name and job title. In case you need help there is a small cheat sheet [here](https://sebivenlo.github.io/ESDE_2021_elasticsearch/cheat_sheet.html).
 
 1. Create an index for the accounts of employees of a company.
 2. Add a person to the accounts  /add an account for a person with a first name, a last name and a job title.
