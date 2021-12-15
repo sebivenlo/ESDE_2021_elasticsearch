@@ -65,7 +65,7 @@ The mapping of the shakespeare dataset should look as follows.
 Now to the queries:
 1. Get all the documents in the dataset with the match_all query.
 2. Search for the scenes in which the 'play_name' is 'Timon of Athens' with the match query.
-3. Search for the scenes in the play 'Hamlet' ('play_name') in which the 'speaker' is 'Bernardo'. Tip: boolean conditions & match query
+3. Search for the scenes in the play 'Hamlet' ('play_name') in which the 'speaker' is 'BERNARDO'. Tip: boolean conditions & match query
 
 
 ### Some useful links for the assignments
