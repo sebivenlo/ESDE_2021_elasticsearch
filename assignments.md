@@ -23,7 +23,7 @@ In this assignment you are to create a system for the employees of a company. Ev
 
 ## Task 2:  More advanced search with a bigger dataset
 
-In this assignemnt we want to play a bit with a bigger dataset - the Shakespeare dataset. A dataset containing lines out of Shakespeare plays 
+In this assignment we want to play a bit with a bigger dataset - the Shakespeare dataset. A dataset containing lines out of Shakespeare plays 
 Steps to take before starting:
 - Download the shakespeare.json file from the repository.
 - Add the data to Elasticsearch over Kibana by following these steps:
@@ -33,6 +33,7 @@ Steps to take before starting:
   - Choose the advanced method to view the mapping that is created and set the index to 'shakespeare'.
 
 The mapping of the shakespeare dataset should look as follows.
+
 ´´´
 {
   "properties": {
