@@ -35,6 +35,7 @@ Steps to take before starting:
 The mapping of the shakespeare dataset should look as follows.
 
 ´´´
+
 {
   "properties": {
     "index": {
@@ -60,6 +61,7 @@ The mapping of the shakespeare dataset should look as follows.
     }
   }
 }
+
 ´´´
 
 Now to the queries:
