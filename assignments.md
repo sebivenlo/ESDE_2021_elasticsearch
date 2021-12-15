@@ -73,12 +73,12 @@ Now to the queries:
 
 ### Some useful links for the assignments
 
-- https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-index_.html
-- https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-update.html
-- https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-get.html
-- https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-delete.html
-- https://www.elastic.co/guide/en/elasticsearch/reference/current/search-your-data.html
-- https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-match-all-query.html
-- https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-match-query.html
-- https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-bool-query.html
-- https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html
+- [index](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-index_.html)
+- [update](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-update.html)
+- [get](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-get.html)
+- [delete](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-delete.html)
+- [search data](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-your-data.html)
+- [match all query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-match-all-query.html)
+- [match query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-match-query.html)
+- [bool query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-bool-query.html)
+- [query dsl](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html)
