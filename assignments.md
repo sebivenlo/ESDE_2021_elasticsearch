@@ -78,6 +78,7 @@ Now to the queries:
 - [get](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-get.html)
 - [delete](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-delete.html)
 - [search data](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-your-data.html)
+- [search operations](https://www.elastic.co/guide/en/elasticsearch/client/php-api/current/search_operations.html)
 - [match all query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-match-all-query.html)
 - [match query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-match-query.html)
 - [bool query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-bool-query.html)
