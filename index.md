@@ -26,13 +26,20 @@ The information of the slides can be found on [this](https://sebivenlo.github.io
 
 ### Assignments for the workshop
 
-The assignments of the workshop can be found [here](https://sebivenlo.github.io/ESDE_2021_elasticsearch/assignments.html)
+The assignments of the workshop can be found [here](https://sebivenlo.github.io/ESDE_2021_elasticsearch/assignments.html).
+
+### Small Cheat sheet
+
+For the first assignments there is a small cheat sheet [here](https://sebivenlo.github.io/ESDE_2021_elasticsearch/cheat_sheet.html).
+
 
 ### Sources
+
 - official website: [https://www.elastic.co/de/](https://www.elastic.co/de/)
 
 
 Tutorials:
 - [https://dev.to/elastic/performing-crud-operations-with-elasticsearch-kibana-50ka](https://dev.to/elastic/performing-crud-operations-with-elasticsearch-kibana-50ka)
+- [https://www.elastic.co/de/blog/a-practical-introduction-to-elasticsearch](https://www.elastic.co/de/blog/a-practical-introduction-to-elasticsearch)
 
 
