@@ -13,7 +13,7 @@ Access the Kibana dashboard at [http://localhost:5601](http://localhost:5601) an
 In this assignment you are to create a system for the employees of a company. Every employee is to have an account in this system containing the first name, last name and job title. In case you need help there is a small cheat sheet [here](https://sebivenlo.github.io/ESDE_2021_elasticsearch/cheat_sheet.html).
 
 1. Create an index for the accounts of employees of a company.
-2. Add a person to the accounts  /add an account for a person with a first name, a last name and a job title.
+2. Add a person with a first name, a last name and a job title.
 3. Retrieve the created account
 4. Update the document by adding the field 'birth_date'.
 5. Add a second person with the same job title.
