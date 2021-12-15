@@ -35,11 +35,19 @@ For the first assignments there is a small cheat sheet [here](https://sebivenlo.
 
 ## Sources
 
-- official website: [https://www.elastic.co/de/](https://www.elastic.co/de/)
+- [official website](https://www.elastic.co/de/)
+- [Elastic Documentation](https://www.elastic.co/guide/index.html)
+- [https://stackshare.io/stackups/elasticsearch-vs-kibana](https://stackshare.io/stackups/elasticsearch-vs-kibana)
+- [https://www.section.io/blog/elasticsearch-and-kibana/](https://www.section.io/blog/elasticsearch-and-kibana/)
+- [https://medium.com/@victorsmelopoa/an-introduction-to-elasticsearch-with-kibana-78071db3704](https://medium.com/@victorsmelopoa/an-introduction-to-elasticsearch-with-kibana-78071db3704)
+- [http://workshopdudes.github.io/elasticsearch-workshop-slides/#/](http://workshopdudes.github.io/elasticsearch-workshop-slides/#/)
+- [https://opensourcelibs.com/lib/elasticsearch-workshop](https://opensourcelibs.com/lib/elasticsearch-workshop)
+- [https://alternativeto.net/software/elasticsearch/](https://alternativeto.net/software/elasticsearch/) 
 
 
 ### Tutorials
 - [https://dev.to/elastic/performing-crud-operations-with-elasticsearch-kibana-50ka](https://dev.to/elastic/performing-crud-operations-with-elasticsearch-kibana-50ka)
 - [https://www.elastic.co/de/blog/a-practical-introduction-to-elasticsearch](https://www.elastic.co/de/blog/a-practical-introduction-to-elasticsearch)
+- [https://www.tutorialspoint.com/elasticsearch/index.htm](https://www.tutorialspoint.com/elasticsearch/index.htm)
 
 
