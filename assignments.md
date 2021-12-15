@@ -34,7 +34,7 @@ Steps to take before starting:
 
 The mapping of the shakespeare dataset should look as follows.
 
-´´´
+```
 
 {
   "properties": {
@@ -62,7 +62,7 @@ The mapping of the shakespeare dataset should look as follows.
   }
 }
 
-´´´
+```
 
 Now to the queries:
 1. Get all the documents in the dataset with the match_all query.
