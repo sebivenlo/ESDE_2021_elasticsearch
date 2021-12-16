@@ -35,86 +35,172 @@ revealOptions:
 ...
 ---
 
-# elasticsearch
-
-[ presentation for the workshop ]
+# Elasticsearch
+<img src="/images/elasticsearch-logo.svg" width="500">
 
 <!-- s -->
 
 ## Content
 
-- What is elasticsearch? <!-- .element: class="fragment" -->
-- What is Kibana? <!-- .element: class="fragment" -->
-- What is the Elastic stack? <!-- .element: class="fragment" -->
-- Why elasticsearch? <!-- .element: class="fragment" -->
-- Key concepts of elasticsearch <!-- .element: class="fragment" -->
-- Use cases <!-- .element: class="fragment" -->
-- Type of search <!-- .element: class="fragment" -->
-- Queries <!-- .element: class="fragment" -->
-- Differences between realtional database and elasticsearch <!-- .element: class="fragment" -->
+- What is Elasticsearch? 
+- What is Kibana? 
+- What is the Elastic stack? 
+- History of the Elastic Stack 
+- Why Elasticsearch? 
+- Key concepts of Elasticsearch 
+- Use cases of Elasticsearch 
+- Companies using Elasticsearch 
+- Queries 
+- Differences between Relational Database and Elasticsearch 
+- How to get started with Elasticsearch? 
 <!-- s -->
 
-## What is elasticsearch?
-- Real-time distributed and open source full-text search and analytics engine<!-- .element: class="fragment" -->
-- developed in Java<!-- .element: class="fragment" -->
-- Based on the Lucene search engine<!-- .element: class="fragment" -->
-- Interactionthrough Restful API<!-- .element: class="fragment" -->
-- uses schema less JSON documents to store data<!-- .element: class="fragment" -->
+## What is Elasticsearch?
+![elasticserch](/images/elasticsearch-logo.svg)
+
+- Real-time distributed and open source full-text search and analytics engine
+- developed in Java
+- Based on the Lucene search engine
+- Interaction through RESTful API
+- uses schema less JSON documents to store data
 
 <!-- s -->
 
 ## What is Kibana?
-- open source browser visualisation tool<!-- .element: class="fragment" -->
-- to visualize large amounts of data<!-- .element: class="fragment" -->
+![kibana](/images/kibana-logo.svg)
+
+- open source browser visualisation tool
+- to visualize large amounts of data
 
 <!-- s -->
 
 ## What is the Elastic stack?
+![elasticstack](/images/elastic-stack-logo.svg)
+
+- combination of the open source projects Elasticsearch, Logstash, Kibana and Beats
+
+<!-- s -->
+## History of the Elastic Stack
+1. Elasticsearch developed as RESTful open source serach engine
+2. Due to Elasticsearch being used more and more for log data, ingesting data and visualizing it became important so Logstash and Kibana were developed.
+3. Beats added due to user suggestion
 
 
-<!-- s -->  
+<img src="/images/elk-stack.svg" width="400">
 
-## Why elasticsearch?
-- compatible to run on every platform due to the development in java<!-- .element: class="fragment" -->
-- real time: newly added documents are directly searchable<!-- .element: class="fragment" -->
-- easy to scale up<!-- .element: class="fragment" -->
-- Handles multi-tenancy easily<!-- .element: class="fragment" -->
-- Scalable<!-- .element: class="fragment" -->
-- Performance<!-- .element: class="fragment" -->
-- Muktilingual<!-- .element: class="fragment" -->
-- Document oriented -> json is easy to integrate<!-- .element: class="fragment" -->
-- autocompletion & instant search<!-- .element: class="fragment" -->
-- open source<!-- .element: class="fragment" -->
+<!-- s -->
+
+## Why Elasticsearch?
+- compatible to run on every platform due to the development in java
+- real time: newly added documents are directly searchable
+- Handles multi-tenancy easily
+- Scalability
+- Performance
+- Multilingual
+- Document oriented -> json is easy to integrate
+- autocompletion & instant search
 
 
 
 <!-- s -->
+## Key concepts of Elasticsearch
 
-## Key concepts of elasticsearch
+![ELK](/images/JsonVsData.png)
 
-
-<!-- s -->
-
-## use cases
 
 <!-- s -->
 
-## Type of search
+## Key concepts of Elasticsearch
 
+- Document
+- Index
+- Shards
+- Cluster
+- Replica shards
+- Node
+- Type
+- Mapping
+
+
+<!-- s -->
+## Index and shards
+![ELK](/images/IndexAndShards.png)
+<!-- s -->
+
+## Use cases of Elasticsearch
+- Full-text search
+- Logging and Log Analysis
+- Data visualization
+- Scarping and combining public data
+- Event data and metrics
+
+<!-- s -->
+## Elasticsearch Users
+![ELK](/images/elasticsearch-users.jpeg)
+
+<!-- s -->
+## Companies using Elasticsearch
+- Airbus (Elasticsearch For Real-Time Access to Aircraft Technical Documents)
+- Netflix (integrated into their messaging platform that delivers messages to customers)
+- slack (Monitor for malicious activity)
 
   
 <!-- s -->
+## Alternatives to Elasticsearch
+- Apache Solr (open source based on Lucene)
+  - queries can return in JSON, XML and CSV
+  - Scalable only with help of SolrCloud
+  - focused on text-based searching
+
+<!-- s -->
 
 ## Queries
-- Structured queries<!-- .element: class="fragment" -->
-- Full-text queries<!-- .element: class="fragment" -->
+- Elasticsearch Query DSL
+- Match All Query : "query": {  
+      "match_all": { }  
+- Full-text queries:  Match, multi_match
 
 
 <!-- s -->
 
-## Differences between realtional database and elasticsearch
+## Differences between Relational Database and Elasticsearch
+![ELK](/images/db-vs-els.jpg)
 
 
+<!-- s -->
+ ## Solution Using Relational Database Query 
+select * from product where name like '%Red%' or name like '%Shirt%'; 
+![ELK](/images/databaseResult.png)
+- Elasticsearch Solution
+```
+POST test/product/_search 
+{      "query": { 
+          "match": { 
+            "name": "Red Shirt"   } } }
+```
+
+<!-- s -->
+## Conclusion
+![ELK](/images/elastickSolutoin.png)
+- The differences will be in the result where Relational Database will return results in some random order while Elasticsearch returns results in decreasing order of _score which is calculated on the basis of relevancy. 
+
+<!-- s -->
+
+## How to get started with Elasticsearch?
+- Is the Elasticsearch Alive?
+- you can access it at  http://localhost:9200 on your web browser, which returns this:
+![ELK](/images/ela-result.png)
+
+<!-- s -->
+## Elasticsearch
+- Elasticsearch hides the complexities behind a REST API
+POST (create)
+GET (read)
+PUT (update)
+DELETE (delete)
+- and curl can work fine as the following example: 
+- ```curl -X PUT http://localhost:9200/newindex```
+ 
 <!-- s -->
 
 ## Thank you for your attention
