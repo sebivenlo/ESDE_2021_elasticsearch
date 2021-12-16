@@ -1,5 +1,5 @@
 ---
-title: "Presentation elasticsearch and kibana"
+title: "Presentation Elasticsearch and Kibana"
 subtitle: ""
 author: [Lana & Elena ]
 #bibliography: paper.bib
