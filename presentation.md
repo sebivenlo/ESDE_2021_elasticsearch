@@ -36,7 +36,7 @@ revealOptions:
 ---
 
 # Elasticsearch
-<img src="/images/elasticsearch-logo.svg" width="500">
+![elasticserch](/images/elasticsearch-logo.svg)
 
 <!-- s -->
 
@@ -86,7 +86,6 @@ revealOptions:
 3. Beats added due to user suggestion
 
 
-<img src="/images/elk-stack.svg" width="400">
 
 <!-- s -->
 
