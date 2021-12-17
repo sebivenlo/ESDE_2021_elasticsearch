@@ -34,7 +34,7 @@ For the first assignments there is a small cheat sheet [here](https://sebivenlo.
 
 ## Solutions of the workshop
 
-[Here](https://sebivenlo.github.io/ESDE_2021_elasticsearch/solutions.html). are the solutions of the workshop.
+[Here](https://sebivenlo.github.io/ESDE_2021_elasticsearch/solutions.html) are the solutions of the workshop.
 
 
 
