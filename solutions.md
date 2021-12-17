@@ -4,7 +4,9 @@
 ## Task 1
 
 1.1 Create an index for the accounts of employees of a company.
-```PUT employees```
+```
+PUT employees
+```
 
 1.2 Add a person with a first name, a last name and a job title.
 ```
@@ -17,7 +19,9 @@ PUT employees/_doc/0
 ```
 
 1.3 Retrieve the created account
-```GET employees/_doc/0```
+```
+GET employees/_doc/0
+```
 
 1.4 Update the document by adding the field ‘birth_date’.
 ```
@@ -51,7 +55,9 @@ GET employees/_search
 }
 ```
 1.7 Delete an account.
-```DELETE employees/_doc/1 ```
+```
+DELETE employees/_doc/1 
+```
 
 
 ## Task 2
