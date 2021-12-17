@@ -32,6 +32,11 @@ The assignments of the workshop can be found [here](https://sebivenlo.github.io/
 
 For the first assignments there is a small cheat sheet [here](https://sebivenlo.github.io/ESDE_2021_elasticsearch/cheat_sheet.html).
 
+## Solutions of the workshop
+
+[Here](https://sebivenlo.github.io/ESDE_2021_elasticsearch/solutions.html). are the solutions of the workshop.
+
+
 
 ## Sources
 
